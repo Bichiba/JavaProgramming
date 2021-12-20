@@ -1,5 +1,7 @@
 package day29_ArrayList;
 
+import utilities.StringUtility;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -33,6 +35,27 @@ public class RemoveIfMethod {
         list2.removeIf( each ->  each%2 ==0 );
 
         System.out.println(list2);
+
+
+        System.out.println("------------------------------------");
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.addAll(Arrays.asList("Java", "Python", "JavaScript", "C#", "C++", "Java", "Java"));
+
+        list3.removeIf( p ->  p.startsWith("J") );
+
+        System.out.println(list3);
+
+
+        System.out.println("------------------------------------");
+
+        ArrayList<String> names = new ArrayList<>();
+        names.addAll(Arrays.asList("Anna", "Racecar", "Level", "Eye", "Java", "Python", "Cydeo"));
+
+        names.removeIf( name -> !StringUtility.isPalindrome(name));
+
+        System.out.println(names);
+
 
 
 
