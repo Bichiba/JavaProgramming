@@ -50,21 +50,7 @@
                  encrypt with char :x
                  output:cxyxdxexox
 
-               6.
-                Given a non-empty string like "Code" print a string like "CCoCodCode".
-                (do with substring  first)
-                (do with charat())
-                Code → "CCoCodCode"
-                abc → "aababc"
-                ab → "aab"
 
-                7.
-                Given a non-empty string like "Code" print the reversed "edoC".
-
-                8.
-                Count the word that is given inside the sentence
-                input: Java is easy, so I prefer to learn Java.
-                output:2
 
 
 
